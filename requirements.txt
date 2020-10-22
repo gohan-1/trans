@@ -1,5 +1,4 @@
 
-Rtree==0.9.4
 
 ruamel-yaml==0.15.87
 scikit-image==0.16.2
