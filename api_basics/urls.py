@@ -10,6 +10,6 @@ urlpatterns = [
     # path('train/', train_model),
     # path('scrap/', scrap),
     # path('predict/', predict),
-    # path('languages/',languages ),
+    path('languages/',languages ),
     path('translate/',translate)
 ]
