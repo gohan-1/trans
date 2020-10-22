@@ -7,7 +7,7 @@ anaconda-client==1.2.2
 argh==0.26.2
 asgiref==3.2.10
 asn1crypto==1.3.0
-astroid @ file:///tmp/build/80754af9/astroid_1592495912941/work
+
 astropy==4.0.1.post1
 astunparse==1.6.3
 atomicwrites==1.4.0
@@ -251,7 +251,11 @@ suod==0.0.4
 sympy @ file:///tmp/build/80754af9/sympy_1594236545715/work
 tables==3.6.1
 tblib==1.6.0
-tensorboard==2.3.0
+tensorboard==2.3.0Django==1.4.1
+distribute==0.6.27
+dj-database-url==0.2.1
+psycopg2==2.4.5
+wsgiref==0.1.2
 tensorboard-plugin-wit==1.7.0
 tensorflow==2.3.0
 tensorflow-estimator==2.3.0
