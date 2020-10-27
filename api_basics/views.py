@@ -391,7 +391,19 @@ def languages(request):
     if request.method == 'GET':
         print(googletrans.LANGUAGES)
         old_dict=googletrans.LANGUAGES
-        new_languages = dict([(value, key) for key, value in old_dict.items()]) 
+        my_list=[]
+        new_dict=dict()
+        
+        for key, value in old_dict.items():
+            if key!="message" or key!="message":
+                new_dict["code"]=key
+                new_dict["language"]=value
+                my_list.append(new_dict)
+                new_dict=dict()
+
+        new_languages={"data":my_list}
+
+
         return JsonResponse(new_languages)
 
 
